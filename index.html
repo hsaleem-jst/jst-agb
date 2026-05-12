@@ -2,16 +2,185 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>JST Global – AGB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Allgemeine Geschäftsbedingungen (AGB) – JST Power Equipment GmbH</title>
+  <meta name="description" content="Allgemeine Geschäftsbedingungen (AGB) der JST Power Equipment GmbH, Frankfurt am Main.">
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 700px; margin: 4rem auto; padding: 0 1rem; line-height: 1.6; }
-    a { color: #0066cc; }
+    :root {
+      --jst-blue: #002b5c;
+      --jst-red: #c8102e;
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #e2e2e2;
+      --bg: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      border-top: 6px solid var(--jst-blue);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 0;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    .brand {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      font-weight: 700;
+      color: var(--jst-blue);
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+    }
+    h1 {
+      font-size: 1.9rem;
+      line-height: 1.25;
+      margin: 0 0 0.5rem;
+      color: var(--jst-blue);
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 2.5rem 0 0.75rem;
+      color: var(--jst-blue);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+    p { margin: 0.6rem 0; }
+    .lede { color: var(--muted); margin-bottom: 1.5rem; }
+    .meta {
+      background: #f6f8fb;
+      border-left: 3px solid var(--jst-blue);
+      padding: 1rem 1.1rem;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .meta dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1rem; }
+    .meta dt { font-weight: 600; color: var(--muted); }
+    .meta dd { margin: 0; }
+    .download {
+      display: inline-block;
+      background: var(--jst-blue);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.85rem 1.4rem;
+      border-radius: 4px;
+      font-weight: 600;
+      margin: 1rem 0;
+      transition: background 0.15s ease;
+    }
+    .download:hover { background: #001a3d; }
+    .download::after { content: " ↓"; }
+    .impressum {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .impressum p { margin: 0.3rem 0; }
+    .todo {
+      background: #fff4d6;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      font-style: italic;
+      color: #7a5400;
+    }
+    footer {
+      max-width: 760px;
+      margin: 3rem auto 0;
+      padding: 1.5rem 1.25rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    a { color: var(--jst-blue); }
+    a:hover { color: var(--jst-red); }
+    @media (max-width: 480px) {
+      h1 { font-size: 1.5rem; }
+      .meta dl { grid-template-columns: 1fr; gap: 0.1rem; }
+      .meta dt { margin-top: 0.4rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Allgemeine Geschäftsbedingungen</h1>
-  <p>JST Power Equipment GmbH</p>
-  <p><a href="AGB-GTC JST Power Equipment GmbH.pdf">AGB als PDF öffnen</a></p>
-  <p><small>Stand: 12. Mai 2026</small></p>
+  <header>
+    <div class="brand">JST POWER EQUIPMENT GmbH</div>
+  </header>
+
+  <main>
+    <h1>Allgemeine Geschäftsbedingungen (AGB)</h1>
+    <p class="lede">General Terms &amp; Conditions der JST Power Equipment GmbH für Geschäftsbeziehungen mit Unternehmern im Sinne von § 14 BGB.</p>
+
+    <div class="meta">
+      <dl>
+        <dt>Stand:</dt>          <dd>März 2025</dd>
+        <dt>Gültig bis:</dt>     <dd>Dezember 2026</dd>
+        <dt>Dokument-ID:</dt>    <dd>DE-JST-1802554237</dd>
+        <dt>Sprachen:</dt>       <dd>Deutsch / Englisch (zweisprachig)</dd>
+      </dl>
+    </div>
+
+    <p>
+      <a class="download" href="agb-gtc.pdf" type="application/pdf">AGB als PDF öffnen</a>
+    </p>
+
+    <p style="font-size: 0.9rem; color: var(--muted);">
+      Bei Abweichungen zwischen der englischen und der deutschen Fassung ist die deutsche Fassung maßgebend (Ziffer 13 der AGB).
+    </p>
+
+    <h2>Kontakt für Rückfragen zu den AGB</h2>
+    <p>
+      Rene Bouyer<br>
+      E-Mail: <a href="mailto:rbouyer@jstpower.com">rbouyer@jstpower.com</a>
+    </p>
+
+    <h2>Impressum</h2>
+    <p style="font-size: 0.85rem; color: var(--muted);">Angaben gemäß § 5 TMG</p>
+    <div class="impressum">
+      <p><strong>JST Power Equipment GmbH</strong><br>
+      Gervinusstraße 17<br>
+      60322 Frankfurt am Main<br>
+      Deutschland</p>
+
+      <p><strong>Vertreten durch die Geschäftsführer:</strong><br>
+      <span class="todo">[Vorname Nachname – bitte ergänzen]</span><br>
+      <span class="todo">[Vorname Nachname – bitte ergänzen]</span></p>
+
+      <p><strong>Kontakt:</strong><br>
+      Telefon: <span class="todo">[Telefonnummer – bitte ergänzen]</span><br>
+      E-Mail: <a href="mailto:rbouyer@jstpower.com">rbouyer@jstpower.com</a></p>
+
+      <p><strong>Registereintrag:</strong><br>
+      Eingetragen im Handelsregister<br>
+      Registergericht: Amtsgericht Frankfurt am Main<br>
+      Registernummer: HRB 133997</p>
+
+      <p><strong>Umsatzsteuer-ID:</strong><br>
+      Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+      <span class="todo">DE[XXXXXXXXX] – bitte ergänzen</span></p>
+
+      <p><strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</strong><br>
+      <span class="todo">[Name, Anschrift – bitte ergänzen, falls redaktionelle Inhalte]</span></p>
+
+      <p style="margin-top: 1.25rem; font-size: 0.85rem; color: var(--muted);">
+        <strong>EU-Streitschlichtung:</strong> Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a>.
+        Wir sind nicht bereit oder verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> JST Power Equipment GmbH. Alle Rechte vorbehalten.
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
 </body>
 </html>
